@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Button Click Example</title>
+  <title>My Website</title>
+  <style>
+    body {
+      background-image: url('background-img\background1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      color: rgb(227, 184, 184);
+      text-align: center;
+      padding-top: 200px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    a {
+      color: rgb(4, 0, 255);
+      font-size: 20px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Button with id -->
-  <button id="myButton">Click Me</button>
+  <h1>Welcome to My Website</h1>
 
-  <!-- JavaScript code to handle the click -->
-  <script>
-    // Get the button element by its ID
-    const button = document.getElementById("myButton");
-
-    // Add a click event listener to the button
-    button.addEventListener("click", function() {
-      alert("Button clicked!");
-    });
-  </script>
+  <!-- Hyperlink to Google -->
+  <a href="https://www.google.com" target="_blank">Visit Google Website</a>
 
 </body>
 </html>
+
+
